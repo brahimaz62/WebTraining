@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.body{
+	width: 70%;
+	margin: 0 auto;
+	line-height: 1.5em;
+	background-image: url("images/bodybgd.jpg");
+	margin-top: 10px;	
+	clear: both;
+
+}
+/*---------------  main header --------------------*/
+
+.mainheader img{
+	width: 100%;
+	border-radius: 8px;
+}
+.mainheader nav{
+	width: 100%;
+	background-color: #000;
+	height: 60px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+
+}
+.mainheader nav ul{
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+}
+.mainheader nav ul li{
+	display: inline;
+}
+.mainheader ul li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 40px;
+	display: inline-block;
+	height: 30px;
+
+
+}
+.mainheader ul li a:hover{
+	background-color: #FF6C5C;
+}
+/*---------------  main content-------------------*/
+.maincontent{
+	width: 70%;
+	float: left;
+}
+.maincontent a{
+	color: #FF6C5C;
+    text-decoration: none;
+}
+.maincontent a:hover{
+	color: #D73C2C;
+}
+
+.maincontent .sec-content{
+	background-color: #fff;
+	margin-top: 3%;
+	padding: 3%;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.maincontent .post-content{
+	font-size: 80%;
+	color: #999;
+	margin-top: -20px;
+	font-style: italic;
+}
+/*---------------  aside -------------------*/
+.aside a{
+	color: #FF6C5C;
+    text-decoration: none;
+}
+.aside a:hover{
+	color: #D73C2C;
+}
+
+.aside{
+	width: 24%;
+	background-color: #fff;
+	margin:2% 0 0 2% ;
+	padding: 2% ;
+	float: left;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.fouter{
+	width: 100%;
+	margin-top: 30px;
+	background-color: #000;
+	height: 50px;
+	border-radius: 8px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	float: left;
+
+}
+.fouter p{
+	color: #fff;
+	text-align: center;
+	font-style: italic;
+}
+/*-------------------   html5-----------------------------*/
+.piano{
+	font-style: 70%;
+	color: #999;
+	line-height: 0.9em;
+}
+.pianoimg{
+	border-radius: 8px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+/*--------------------  about   -------------------*/
+.maincontentAbout{
+	width: 60%;
+	text-align: center;
+    color : white;
+    margin: 0 auto;
+    background-color: #B71C0C;
+	margin-top: 3%;
+	padding: 3%;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
